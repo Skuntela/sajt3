@@ -2,4 +2,4 @@
 
 YOU SHALL NOT PASS
 
-https://github.com/Skuntela/sajt3.git
+https://<username>.github.io/sajt3/
