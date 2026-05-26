@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Flexure;
+  src: url(Flexure.ttf);
+}
+
+body {
+  background-image: url('images/bricks.jpg');
+  font-family: Times New Roman;
+}
+
+.purple-wordart-wrapper {
+	filter: drop-shadow(2px 2px 0px rgba(179, 179, 179, 0.8));
+}
+
+.title {
+  text-align: center;
+  background: linear-gradient(183deg, #cacaca 10%, #ffffff 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Impact';
+  font-size: 100px;
+  transform: skewY(-8deg) scaleY(1.3) scaleX(0.8);
+}
+
+aside .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside .nav-list a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+a{
+	color: navy;
+    font-weight: 700;
+	font-size: 25px;
+    padding: var(--space-2xs);
+}
+
+marquee{
+	color: yellow;
+	font-size: 20px;
+	background: navy;
+}
+
+p {
+		line-height: 1.5;
+		font-size: 20px;
+}
+
+img {
+  line-height: 1.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.nyan {
+    display: inline;
+    margin: 0;
+    width: 155px;
+    height: 155px;
+}
+
+.prava{
+		font-size: 10px;
+		color: navy;
+}
+
+.meni {
+  background-color: #f9f9f9;
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.duga {
+  text-align: center;
+}
+
+.tekst {
+	text-align: center;
+	font-size: 25px;
+    font-family: 'Flexure';
+	filter: drop-shadow(2px 2px 0px rgba(179, 179, 179, 0.8));
+}
+
+.text-rainbow{
+  font-size: 25px;
+  font-family: 'Flexure';
+  filter: drop-shadow(-2px -2px 0px rgba(179, 179, 179, 0.8));
+}
+
+.rainbow-wrapper{
+	display: flex;
+    justify-content: center;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size:  30px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.rainbow {
+    background: linear-gradient(90deg, #9c00ff, red, #f80, #ff0, #02be02, #00f, #4f00ff, #9c00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: scaleY(1.25);
+}
+.rainbow-wrapper:before {
+    color: #000;
+    content: attr(data-content);
+    opacity: .2;
+    position: absolute;
+    transform: skew(60deg) scaleY(.5);
+    transform-origin: bottom left;
+}
