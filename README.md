@@ -2,4 +2,4 @@
 
 YOU SHALL NOT PASS
 
-https://<username>.github.io/sajt3/
+https://<username>.github.io/sajt3
