@@ -2,4 +2,4 @@
 
 YOU SHALL NOT PASS
 
-https://skuntela.github.io/Sajt/
+https://skuntela.github.io/sajt3/
